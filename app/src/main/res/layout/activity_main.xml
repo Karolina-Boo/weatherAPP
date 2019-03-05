@@ -10,6 +10,7 @@
     tools:context="mg.studio.weatherappdesign.MainActivity">
 
     <TextView
+        android:id="@+id/tv_todayweekday"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
@@ -91,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Location"
+                    android:text="Chongqing"
                     android:textColor="@android:color/white"
                     android:textStyle="bold" />
 
@@ -171,11 +172,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/img_next1"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/rainy_small" />
 
             <TextView
+                android:id="@+id/tv_next1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -192,11 +195,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/img_next2"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/partly_sunny_small" />
 
             <TextView
+                android:id="@+id/tv_next2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -213,11 +218,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/img_next3"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/windy_small" />
 
             <TextView
+                android:id="@+id/tv_next3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -234,11 +241,13 @@
             android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/img_next4"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 app:srcCompat="@drawable/sunny_small" />
 
             <TextView
+                android:id="@+id/tv_next4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
